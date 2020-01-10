@@ -1,0 +1,22 @@
+* {
+  font-family: 'Baskervville', serif;
+}
+
+body {
+  background: url('imgs/atlas.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  }
+  
+  .box {
+    border: solid 2px white;
+    background-color: grey;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+  }
+
+  li {
+    list-style-type: none;
+  }
