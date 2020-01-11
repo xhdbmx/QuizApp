@@ -38,7 +38,7 @@ function generateQuestion () {
 // Function to increment question number
 function updateQuestionNumber () {
     questionNumber++;
-    $('.questionNumber').text(questionNumber+1);
+    $('.questionNumber').text(questionNumber + 1);
   };
   
 // Function to increment score
@@ -96,7 +96,7 @@ function userAnswerFeedbackCorrect() {
     <section class="icon">
     <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
     </section>
-    <p><b>You got it right!</b></p>
+    <p><b>Correct!</b> The capital of ${STORE[questionNumber].country} is ${STORE[questionNumber].correctAnswer}</p>
     <button type=button class="nextButton">Next</button>
     </section>`);
   };
@@ -121,10 +121,10 @@ function updateScore() {
 
 // Function to display quiz results
 function renderResults () {
-    if (score = 5) {
+    if (score === 5) {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
       <h3>Great Job!</h3><img src="https://media.giphy.com/media/26xBCnHtYrV2QOHxC/giphy.gif" alt="Globe Spinning"/>
-      <p>You got ${score} / 5</p><p>You really know the world's geography!</p>
+      <p>You got ${score} / 5</p><p>You really know your way around the globe!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
     } else if (score < 5 && score >= 3) {
@@ -135,8 +135,8 @@ function renderResults () {
       </section>`);
     } else {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
-      <h3>You might want to look at a map!</h3><img src="https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif" alt="palm face"/>
-      <p>You got ${score} / 5</p><p>With more studying you'll be able to pass this quiz in no time</p>
+      <h3>You might want to take a look at a map!</h3><img src="https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif" alt="palm face"/>
+      <p>You got ${score} / 5</p><p>With more studying you'll be able to pass this quiz in no time!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
     }
@@ -166,4 +166,5 @@ function commenceQuiz(){
     renderNextQuestion();
   };
 
+// Launch App
 $(commenceQuiz);

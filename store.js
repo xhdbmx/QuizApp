@@ -9,6 +9,7 @@ const STORE = [
       'Cayenne'
       ],
     correctAnswer: 'Addis Ababa',
+    country: 'Ethiopia',
     icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Ethiopia.jpg',
     alt: 'Ethiopia'
 },
@@ -21,6 +22,7 @@ const STORE = [
     'Tbilisi'
     ],
     correctAnswer: 'Tbilisi',
+    country: 'Georgia',
     icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Georgia.jpg',
     alt: 'Georgia'
 },
@@ -33,6 +35,7 @@ const STORE = [
       'Astana'
       ],
     correctAnswer: 'Zagreb',
+    country: 'Croatia',
     icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Croatia.jpg',
     alt: 'Croatia'
 },
@@ -45,6 +48,7 @@ const STORE = [
       'Managua'
       ],
     correctAnswer: 'Jakarta',
+    country: 'Indonesia',
     icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Indonesia.jpg',
     alt: 'Indonesia'
 },
@@ -57,6 +61,7 @@ const STORE = [
       'Windhoek'
       ],
     correctAnswer: 'Abuja',
+    country: 'Nigeria',
     icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Nigeria.jpg',
     alt: 'Nigeria'
 }
