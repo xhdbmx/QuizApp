@@ -8,6 +8,7 @@ body {
   background-size: cover;
   color: white;
   text-align: center;
+  background-repeat: no-repeat;
   }
 
   #logo {
@@ -37,7 +38,7 @@ header ul {
     display: block;
     text-align: center;
     width: 50%;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 h1 {
@@ -193,7 +194,7 @@ form button:hover, form button:focus {
 }
 
 .correctFeedback img {
-    width: 225px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 50%;
@@ -227,4 +228,71 @@ h3 {
 
 .restartButton {
     margin-top: 40px
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+      width: 120px;
+      height: 120px;
+      display: block;
+      margin: auto;
+}
+
+  header ul {
+      margin: 10px;
+      text-align: center
+}
+
+  h1 {
+      font-size: 1.5em
+}
+
+  header ul li {
+      padding: 10px;
+      font-size: 18px
+}
+
+  .headingInfo {
+      width: 100%
+}
+
+  .quizStart {
+      margin-top: 50px;
+      width: 100%;
+      padding: 40px;
+      margin-top: 50;
+}
+
+  h2 {
+      font-size: 18px
+}
+
+  .questionAnswerForm {
+      width: 100%;
+      padding: 20px;
+      margin-top: 0
+}
+
+  label {
+      font-size: 16px;
+      padding: 15px
+}
+
+  .correctFeedback img {
+      width: 100px;
+      height: auto
+}
+
+  .correctFeedback p {
+      font-size: 16px;
+      margin: 0 15px
+}
+
+  .results p:first-of-type {
+      font-size: 18px
+}
+
+  h3 {
+      font-size: 25px
+}
 }
