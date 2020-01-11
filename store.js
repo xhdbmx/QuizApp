@@ -64,5 +64,70 @@ const STORE = [
     country: 'Nigeria',
     icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Nigeria.jpg',
     alt: 'Nigeria'
-}
+},
+{
+    question: 'What is the capital of Bulgaria?',
+    answers: [
+      'Sofia',
+      'Banjul',
+      'Gaborone',
+      'Budapest'
+      ],
+    correctAnswer: 'Sofia',
+    country: 'Bulgaria',
+    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Bulgaria.jpg',
+    alt: 'Bulgaria'
+},
+{
+    question: 'What is the capital of Ecuador?',
+    answers: [
+      'Roseau',
+      'Quito',
+      'San Salvador',
+      'Dili'
+      ],
+    correctAnswer: 'Quito',
+    country: 'Ecuador',
+    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Ecuador.jpg',
+    alt: 'Equador'
+},
+{
+    question: 'What is the capital of Grenada?',
+    answers: [
+      'Georgetown',
+      'Saint George\'s',
+      'Reykjavik',
+      'Pristina'
+      ],
+    correctAnswer: 'Saint George\'s',
+    country: 'Grenada',
+    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Grenada.jpg',
+    alt: 'Grenada'
+},
+{
+    question: 'What is the capital of Kazakhstan?',
+    answers: [
+      'Maseru',
+      'Vilnius',
+      'Astana',
+      'Valletta'
+      ],
+    correctAnswer: 'Astana',
+    country: 'Kazakhstan',
+    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Kazakhstan.jpg',
+    alt: 'Kazakhstan'
+},
+{
+    question: 'What is the capital of Morocco?',
+    answers: [
+      'Maputo',
+      'Freetown',
+      'Juba',
+      'Rabat'
+      ],
+    correctAnswer: 'Rabat',
+    country: 'Morocco',
+    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Morocco.jpg',
+    alt: 'Morocco'
+},
 ];
