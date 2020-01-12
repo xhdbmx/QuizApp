@@ -55,6 +55,7 @@ function startQuiz() {
     $('.quizStart').on('click', '.startButton', function() {
       $('.quizStart').remove();
       $('.secondaryTitle').remove();
+      $('.headingInfo').remove();
       $('.currentStats').slideToggle('slow');
       $(this).fadeOut('slow');
       $('.questionAnswerForm').css('display', 'block');
