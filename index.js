@@ -108,7 +108,7 @@ function userAnswerFeedbackWrong() {
     <section class="icon">
     <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
     </section>
-    <p><b>Wrong Answer!</b><br>the correct answer is <span>"${correctAnswer}"</span>!</p>
+    <p><b>Wrong Answer!</b><br>The correct answer is <span>"${correctAnswer}"</span>!</p>
     <button type=button class="nextButton">Next</button>
     </section>`);
 };
@@ -124,19 +124,19 @@ function renderResults() {
     if (score === 10) {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
       <h3>Great Job!</h3><img src="https://media.giphy.com/media/26xBCnHtYrV2QOHxC/giphy.gif" alt="Globe Spinning"/>
-      <p>You got ${score} / 10</p><p>You really know your way around the globe!</p>
+      <p>You got ${score} / 10 correct</p><p>You really know your way around the globe!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
     } else if (score <= 8 && score >= 5) {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
       <h3>Almost there!</h3><img src="https://media.giphy.com/media/l2SpMh8OAvxK9EPwA/giphy.gif" alt="study some more"/>
-      <p>You got ${score} / 10</p><p>Increase your geography knowledge a little more and you'll be ready to go!</p>
+      <p>You got ${score} / 10 correct</p><p>Increase your geography knowledge a little more and you'll be ready to go!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
     } else {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
-      <h3>You might want to take a look at a map!</h3><img src="https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif" alt="palm face"/>
-      <p>You got ${score} / 10</p><p>With more studying you'll be able to pass this quiz in no time!</p>
+      <h3>You might want to study a map!</h3><img src="https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif" alt="palm face"/>
+      <p>You got ${score} / 10 correct</p><p>With more studying you'll be able to pass this quiz in no time!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
     }
