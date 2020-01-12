@@ -96,7 +96,7 @@ function userAnswerFeedbackCorrect() {
     <section class="icon">
     <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
     </section>
-    <p><b>Correct!</b> The capital of ${STORE[questionNumber].country} is ${STORE[questionNumber].correctAnswer}</p>
+    <p><b>Correct Answer!</b> The capital of ${STORE[questionNumber].country} is <span>"${STORE[questionNumber].correctAnswer}"</span>!</p>
     <button type=button class="nextButton">Next</button>
     </section>`);
   };
@@ -108,7 +108,7 @@ function userAnswerFeedbackWrong() {
     <section class="icon">
     <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
     </section>
-    <p><b>You got it wrong</b><br>the correct answer is <span>"${correctAnswer}"</span></p>
+    <p><b>Wrong Answer!</b><br>the correct answer is <span>"${correctAnswer}"</span>!</p>
     <button type=button class="nextButton">Next</button>
     </section>`);
 };

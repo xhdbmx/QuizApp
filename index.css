@@ -34,7 +34,7 @@ header ul li {
 }
 
 header ul {
-    margin-top: 25px
+    margin-top: 25px;
 }
 
 .quizStart {
@@ -61,12 +61,12 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 button:hover, button:focus {
     background-color: #363946;
-    color: #ebca52
+    color: #ebca52;
 }
 
 main section {
@@ -74,19 +74,19 @@ main section {
 }
 
 label:nth-child(1) {
-    background-color: #3866AF
+    background-color: #3866AF;
 }
 
 label:nth-child(2) {
-    background-color: #387AAF
+    background-color: #387AAF;
 }
 
 label:nth-child(3) {
-    background-color: #3894AF
+    background-color: #3894AF;
 }
 
 label:nth-child(4) {
-    background-color: #38A9AF
+    background-color: #38A9AF;
 }
 
 label {
@@ -105,7 +105,7 @@ label {
 }
 
 label:hover, label:focus {
-    background-color: #AF6438
+    background-color: #AF6438;
 }
 
 fieldset {
@@ -140,7 +140,7 @@ h2 {
     text-align: center;
     margin-bottom: 40px;
     color: #ffffff;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 form button {
@@ -160,7 +160,7 @@ form button {
 
 form button:hover, form button:focus {
     background-color: #363946;
-    color: #ebca52
+    color: #ebca52;
 }
 
 .answer {
@@ -179,11 +179,11 @@ form button:hover, form button:focus {
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    padding-top: 40px
+    padding-top: 40px;
 }
 
 .correctFeedback button {
-    width: 100%
+    width: 100%;
 }
 
 .correctFeedback p {
@@ -191,7 +191,7 @@ form button:hover, form button:focus {
     line-height: 1.5em;
     text-transform: uppercase;
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .correctFeedback span {
@@ -206,7 +206,7 @@ form button:hover, form button:focus {
     background-color: rgb(150, 152, 153);
     margin: auto;
     padding: 10px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -222,24 +222,24 @@ h3 {
 
 .results p:first-of-type {
     font-size: 25px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .results p {
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .restartButton {
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1400px) {
  
   header ul {
       margin: 10px;
-      text-align: center
+      text-align: center;
 }
 
   h1 {
@@ -259,31 +259,35 @@ h3 {
 }
 
   h2 {
-      font-size: 25px
+      font-size: 25px;
 }
 
   .questionAnswerForm {
       width: 100%;
       padding: 20px;
-      margin-top: 0
+      margin-top: 0;
 }
 
-  label {
+label {
       font-size: 16px;
-      padding: 15px
+      padding: 15px;
 }
 
-  .correctFeedback img {
-      width: 100px;
-      height: auto
+.correctFeedback {
+    width: 66%;
 }
 
-  .correctFeedback p {
-      font-size: 16px;
-      margin: 0 15px
+.correctFeedback img {
+      width: 150px;
+      height: auto;
 }
 
+.correctFeedback p {
+    font-size: 20px;
+    margin: 0 15px;
+}
+  
   .results p:first-of-type {
-      font-size: 18px
+      font-size: 18px;
 }
 }
