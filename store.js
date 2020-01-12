@@ -10,7 +10,7 @@ const STORE = [
       ],
     correctAnswer: 'Addis Ababa',
     country: 'Ethiopia',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Ethiopia.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/ET-flag.gif',
     alt: 'Ethiopia'
 },
 {
@@ -23,7 +23,7 @@ const STORE = [
     ],
     correctAnswer: 'Tbilisi',
     country: 'Georgia',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Georgia.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/GG-flag.gif',
     alt: 'Georgia'
 },
 {
@@ -36,7 +36,7 @@ const STORE = [
       ],
     correctAnswer: 'Zagreb',
     country: 'Croatia',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Croatia.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/HR-flag.gif',
     alt: 'Croatia'
 },
 {
@@ -49,7 +49,7 @@ const STORE = [
       ],
     correctAnswer: 'Jakarta',
     country: 'Indonesia',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Indonesia.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/ID-flag.gif',
     alt: 'Indonesia'
 },
 {
@@ -62,7 +62,7 @@ const STORE = [
       ],
     correctAnswer: 'Abuja',
     country: 'Nigeria',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Nigeria.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/NI-flag.gif',
     alt: 'Nigeria'
 },
 {
@@ -75,7 +75,7 @@ const STORE = [
       ],
     correctAnswer: 'Sofia',
     country: 'Bulgaria',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Bulgaria.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/BU-flag.gif',
     alt: 'Bulgaria'
 },
 {
@@ -88,7 +88,7 @@ const STORE = [
       ],
     correctAnswer: 'Quito',
     country: 'Ecuador',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Ecuador.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/EC-flag.gif',
     alt: 'Equador'
 },
 {
@@ -101,7 +101,7 @@ const STORE = [
       ],
     correctAnswer: 'Saint George\'s',
     country: 'Grenada',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Grenada.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/GJ-flag.gif',
     alt: 'Grenada'
 },
 {
@@ -114,7 +114,7 @@ const STORE = [
       ],
     correctAnswer: 'Astana',
     country: 'Kazakhstan',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Kazakhstan.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/KZ-flag.gif',
     alt: 'Kazakhstan'
 },
 {
@@ -127,7 +127,7 @@ const STORE = [
       ],
     correctAnswer: 'Rabat',
     country: 'Morocco',
-    icon: 'https://www.worldmapsonline.com/images/OutlineMaps/Morocco.jpg',
+    icon: 'https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/MO-flag.gif',
     alt: 'Morocco'
 },
 ];
