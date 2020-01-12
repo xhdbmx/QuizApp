@@ -1,6 +1,10 @@
 let questionNumber = 0;
 let score = 0;
 
+$(document).ready(function() {
+  $(".currentStats").hide();
+});
+
 // Function to display questions
 function generateQuestion() {
     if (questionNumber < STORE.length) {
@@ -51,6 +55,8 @@ function startQuiz() {
     $('.quizStart').on('click', '.startButton', function() {
       $('.quizStart').remove();
       $('.secondaryTitle').remove();
+      $('.currentStats').slideToggle('slow');
+      $(this).fadeOut('slow');
       $('.questionAnswerForm').css('display', 'block');
       $('.questionNumber').text(1);
   });
