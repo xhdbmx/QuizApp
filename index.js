@@ -1,9 +1,11 @@
-let questionNumber = 0;
-let score = 0;
-
+// Function to hide current score and current question until after starting quiz
 $(document).ready(function() {
   $(".currentStats").hide();
 });
+
+let questionNumber = 0;
+let score = 0;
+
 
 // Function to display questions
 function generateQuestion() {
@@ -13,22 +15,22 @@ function generateQuestion() {
       <form>
       <fieldset>
       <label class="answerOption">
-      <input type="radio" value="${STORE[questionNumber].answers[0]}" name="answer" required>
+      <input type="radio" tabindex="1" value="${STORE[questionNumber].answers[0]}" name="answer" required>
       <span>${STORE[questionNumber].answers[0]}</span>
       </label>
       <label class="answerOption">
-      <input type="radio" value="${STORE[questionNumber].answers[1]}" name="answer" required>
+      <input type="radio" tabindex="2" value="${STORE[questionNumber].answers[1]}" name="answer" required>
       <span>${STORE[questionNumber].answers[1]}</span>
       </label>
       <label class="answerOption">
-      <input type="radio" value="${STORE[questionNumber].answers[2]}" name="answer" required>
+      <input type="radio" tabindex="3" value="${STORE[questionNumber].answers[2]}" name="answer" required>
       <span>${STORE[questionNumber].answers[2]}</span>
       </label>
       <label class="answerOption">
-      <input type="radio" value="${STORE[questionNumber].answers[3]}" name="answer" required>
+      <input type="radio" tabindex="4" value="${STORE[questionNumber].answers[3]}" name="answer" required>
       <span>${STORE[questionNumber].answers[3]}</span>
       </label>
-      <button type="submit" class="submitButton">Submit</button>
+      <button type="submit" id="enterButton" class="submitButton">Submit</button>
       </fieldset>
       </form>
       </div>`;

@@ -14,12 +14,13 @@ body {
 }
 
 #logo {
-    height: 150px;    
+    height: 150px;
 }
 
 header {
     width: 100%;
     font-size: 18px;
+    text-align: center;
 }
 
 header ul li {
@@ -132,6 +133,10 @@ input:checked {
 input[type=radio] {
     flex: 0 0 auto;
     margin-right: 10px;
+}
+
+input:focus {
+    background-color: #ebca52;
 }
 
 h2 {
