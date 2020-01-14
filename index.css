@@ -98,7 +98,7 @@ label {
     cursor: pointer;
     transition: all 0.3s ease-out;
     line-height: 22px;
-    width: 60%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
@@ -157,7 +157,7 @@ form button {
     cursor: pointer;
     transition: all 0.5s ease;
     margin-top: 10px;
-    width: 50%;
+    width: 75%;
     text-align: center;
 }
 
