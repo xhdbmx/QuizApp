@@ -34,6 +34,7 @@ header ul li {
 
 header ul {
     margin-top: 25px;
+    padding: 0px;
 }
 
 .quizStart {
@@ -268,7 +269,7 @@ header ul li {
 }
 
 h2 {
-      font-size: 25px;
+    font-size: 25px;
 }
 
 .questionAnswerForm {
