@@ -98,9 +98,10 @@ label {
     cursor: pointer;
     transition: all 0.3s ease-out;
     line-height: 22px;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    white-space: nowrap;
 }
 
 label:hover, label:focus {

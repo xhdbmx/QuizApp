@@ -30,7 +30,7 @@ function generateQuestion() {
       <input type="radio" tabindex="4" value="${STORE[questionNumber].answers[3]}" name="answer" required>
       <span>${STORE[questionNumber].answers[3]}</span>
       </label>
-      <button type="submit" id="enterButton" class="submitButton">Submit</button>
+      <button type="submit" class="submitButton">Submit</button>
       </fieldset>
       </form>
       </div>`;
@@ -138,13 +138,13 @@ function renderResults() {
       </section>`);
     } else if (score <= 8 && score >= 5) {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
-      <h3>Almost there!</h3><img src="https://media.giphy.com/media/l2SpMh8OAvxK9EPwA/giphy.gif" alt="study some more"/>
+      <h3>Almost there!</h3><img src="https://media.giphy.com/media/Hc8PMCBjo9BXa/giphy.gif" alt="study some more"/>
       <p>You got ${score} / 10 correct</p><p>Increase your geography knowledge a little more and you'll be ready to go!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
     } else {
       $('.questionAnswerForm').html(`<section class="results correctFeedback">
-      <h3>You might want to study a map!</h3><img src="https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif" alt="palm face"/>
+      <h3>You might want to study a map!</h3><img src="https://media.giphy.com/media/MRHdzGzkszdhHtCnhY/giphy.gif" alt="palm face"/>
       <p>You got ${score} / 10 correct</p><p>With more studying you'll be able to pass this quiz in no time!</p>
       <button class="restartButton">Restart Quiz</button>
       </section>`);
